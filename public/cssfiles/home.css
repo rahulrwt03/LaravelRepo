@@ -1,0 +1,227 @@
+/* Assuming you have a common.css or custom.css file for your styles */
+
+.connect{
+    border:1px solid #0000ff;
+    color: #ffffff;
+    background-color: #0000ff;
+    width: 8vw;
+    height: 5vh;
+    
+}
+.connect:hover{
+    border:1px solid #ee0707;
+    color: #ffffff;
+    background-color: #ee0707;
+    width: 8vw;
+    height: 5vh;
+    
+}
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f0f0; Optional background color */
+    /* height: 100vh; Optional - adjust to your needs */
+    margin: 0; /* Optional - remove default margin */
+}
+
+.banner {
+    width: 100vw;
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ddd; Optional background color */
+    padding: 20px; /* Optional - add padding for spacing */
+}
+
+.left-container {
+    width: 50%;
+    padding: 20px; /* Optional - add padding for spacing */
+    /* background-color: #fff; Optional background color */
+}
+
+.right-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; Optional background color */
+}
+
+.right-container img {
+    max-width: 70%;
+    height: auto;
+    max-height: 70%; /* Optional - constrain image height */
+}
+.use{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.section-About-me{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f0f0f0; Optional background color */
+    /* height: 100vh; Optional - adjust to your needs */
+    margin: 0; /
+}
+
+
+/* About section css */
+.About{        
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.spacer{
+    height: 5vh;
+}
+.About h2{
+    width: 20vw;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    text-align: center
+}
+.About-me{
+  
+    width: 80vw;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ddd; Optional background color */
+    padding: 20px; 
+}
+.About-me-right-container {
+    /* border: 1px solid #c4c4c4; */
+    width: 50%;
+    height: 50vh;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #fff; Optional background color */
+}
+
+.About-me-left-container {
+    width: 50%;
+    padding: 20px;
+    height: 50vh;
+    /* border: 1px solid #c4c4c4; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #fff; Optional background color */
+}
+
+.About-me-left-container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 25px;
+
+    max-height: 100%; /* Optional - constrain image height */
+}
+
+
+/* project section */
+
+.project-section{
+    width: 100vw;
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 80vw;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 50vh;
+    border: 1px solid #c4c4c4;
+}
+.first:hover{
+    background-color: #d1fdcd11;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    height: 50vh;
+    padding: 10px;
+}
+.second:hover{
+    background-color: #cdd5fd11;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+    height: 50vh;
+    padding: 10px;
+}
+.third:hover{
+    background-color: #fdcdcd13;
+}
+.contact-me{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.contact-main{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c4c4c4;
+}
+.contact-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    border-radius: 25px;
+    height: 70vh;
+}
+.contact-img img{
+    width: 100%;
+    height: 80%;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70vh;
+}
+.contact-form form{
+   width: 60%;
+   height: 50vh;
+}
+
+.submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
